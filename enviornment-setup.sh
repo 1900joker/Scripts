@@ -19,7 +19,7 @@ ACTIVEMQ_PATH=/opt/activemq
 LINUX_ARCH="$(lscpu | grep 'Architecture' | awk -F\: '{ print $2 }' | tr -d ' ')"
 
 # Latest Available tar.gz
-MAVEN="http://apache.bytenet.in/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz"
+MAVEN="http://mirror.sdunix.com/apache/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz"
 ACTIVEMQ="http://archive.apache.org/dist/activemq/apache-activemq/5.9.0/apache-activemq-5.9.0-bin.tar.gz"
 
 apt-get update
