@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ubuntu Developer Script For MIS ETS Setup
-# Contributors : Anmol , Sourabh 
+# Contributors : Amol , Sourabh 
 # Downloads and configures the following
 #
 #   Maven
