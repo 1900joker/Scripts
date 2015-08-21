@@ -5,6 +5,11 @@ import urllib2
 from bs4 import BeautifulSoup
 import requests
 import json
+import psycopg2
+try:
+    conn = psycopg2.connect("dbname='english' user='postgres' host='localhost' password='postgres'")
+except:
+    print "I am unable to connect to the database"
 
 def getSoup(url):
 	html = urllib2.urlopen(url)
