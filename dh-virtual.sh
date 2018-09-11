@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://github.com/spotify/dh-virtualenv
 sudo apt-get install python-dev -y
 sudo apt-get install libpq-dev -y
 sudo apt-get install dh-virtualenv -y
